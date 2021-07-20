@@ -32,10 +32,13 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+
+
 .link-primary {
  background-color: var(--primary-color);
  color : white;
  border-radius: 1rem;
+ 
 }
 
 .link-secondary{
@@ -62,6 +65,12 @@ hr {
     padding: 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
+    text-align: center;
+}
+
+.navigation ul {
+    padding-inline-start: 0px;
+
 }
 .navigation .link {
     color: white;
@@ -83,10 +92,12 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    padding: 2rem;
 }
 
 .main-heading {
  color: var(--dark-grey);
+text-align: center;
 }
 .main-highlight {
     color: var(--primary-color);
@@ -122,4 +133,15 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.project-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+
+.section .para {
+    padding: 1rem 0rem;
 }
