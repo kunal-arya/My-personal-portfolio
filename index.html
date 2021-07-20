@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Component Library</title>
+    <link href = "style.css" rel = "stylesheet" / >
 </head>
 
 <body>
@@ -22,21 +23,21 @@
 
     <hr>
 
-    <h2>@containers</h2>
+    <h2 >@containers</h2>
 
     <h3>Fluid Container</h3>
-    <div>This is a fuild container and goes end to end</div>
+    <div class= "container ">This is a fuild container and goes end to end</div>
 
     <h3> center Container </h3>
-    <div>This is a centered container and goes within the specific area </div>
+    <div class = "container container-center">This is a centered container and goes within the specific area </div>
 
     <hr>
 
     <h2>@Links</h2>
 
-    <a href="/">Primary Link</a>
+    <a class = "link link-primary" href="/">Primary Link</a>
 
-    <a href="/">Secondary Link</a>
+    <a class = "link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
@@ -44,7 +45,7 @@
 
     <h3> Unordered Lists (without bullets) </h3>
 
-    <ul>
+    <ul class ="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -52,13 +53,13 @@
 
     <h3> Inline Lists </h3>
 
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+    <ul class = "list-non-bullet">
+        <li class = "list-inline">Item One</li>
+        <li class = "list-inline">Item Two</li>
+        <li class = "list-inline">Item Three</li>
     </ul>
     <h3>Reverse Ordered Lists</h3>
-    <ol>
+    <ol reversed>
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -67,17 +68,17 @@
     <hr>
 
     <h2>@navigation</h2>
-    <nav>
-        <div>I am Brand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class = "navigation container">
+        <div class = "nav-brand">I am Brand</div>
+        <ul class = "list-non-bullet nav-pills">
+            <li class = "list-inline link-active">
+                <a class = "link"href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class = "list-inline">
+                <a class = "link" href="/">Products</a>
             </li>
-            <li>
-                <a href="/">Blog</a>
+            <li class = "list-inline">
+                <a class = "link" href="/">Blog</a>
             </li>
         </ul>
     </nav>
@@ -85,34 +86,42 @@
 <hr>
 
 <h2> @header</h2>
-<img src = "images/main.svg" />
-<header>
-    <h1> This is the Header</h1>
+
+<header class = "header">
+    <img class = "main-img"src = "images/main.svg" />
+    <h1 class = "main-heading"> Kunal Arya the <span class = "main-highlight">Web developer</span></h1>
 </header>
 
 <hr>
 
 <h2>@Section</h2>
-<h3>Normal Section</h3>
-<p>This is a normal Sections</p>
+<section class = "section">
+<h1 class = "section-heading">Normal Section</h1>
+<p  class = "container container-center"
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tellus et lobortis condimentum. Phasellus varius dolor elit, nec consectetur mauris aliquam vitae.</p>
+</section>
 
-<h3>Off-White Section</h3>
-<p>This is a off-white Section </p>
+<section class = "section ow">
+<h1 class = "section-heading">Off-White Section</h1>
+<p  class = "container container-center"
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat tellus et lobortis condimentum. Phasellus varius dolor elit, nec consectetur mauris aliquam vitae.</p>
+</section>
 
 
 <hr>
 
 <h2>@footer</h2>
-<footer>
-    <ul>
-        <li>
-            <a href = "/">Item 1</a>
+<footer class = "footer" >
+    <div> This is the Footer</div>
+    <ul class = "list-non-bullet">
+        <li class = " list list-inline">
+            <a class = "link" href = "/">Item 1</a>
         </li>
-        <li>
-            <a href = "/">Item 2</a>
+        <li class = "list-inline">
+            <a class = "link" href = "/">Item 2</a>
         </li>
-        <li>
-            <a href = "/">Item 3</a>
+        <li class = "list-inline">
+            <a class = "link" href = "/">Item 3</a>
         </li>
     </ul>
 </footer>
