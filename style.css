@@ -47,7 +47,6 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
     color: var(--primary-color);
-    margin:auto;
     display: inline-block;
 }
 
