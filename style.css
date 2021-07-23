@@ -44,7 +44,8 @@ hr {
 .link-secondary{
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    margin:auto;
 }
 
 /* lists */
@@ -66,6 +67,7 @@ hr {
     color: white;
     border-bottom-left-radius: 1rem;
     text-align: center;
+    margin:auto;
 }
 
 .navigation ul {
