@@ -40,7 +40,7 @@ hr {
  color : white;
  border-radius: 1rem;
  display: inline-block;
- 
+ margin: 0.5rem;
 }
 
 .link-secondary{
@@ -48,6 +48,7 @@ hr {
     border-radius: 1rem;
     color: var(--primary-color);
     display: inline-block;
+    margin: 0.5rem;
 }
 
 /* lists */
