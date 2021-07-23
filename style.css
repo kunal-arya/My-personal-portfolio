@@ -94,7 +94,7 @@ hr {
 /* Header */
 
 .main-img {
-    max-width: 70%;
+    max-width: 30%;
     display: block;
     margin: auto;
     padding: 2rem;
@@ -141,7 +141,7 @@ text-align: center;
 }
 
 .project-img {
-    max-width: 70%;
+    max-width: 30%;
     display: block;
     margin: auto;
     padding: 2rem;
