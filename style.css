@@ -38,6 +38,7 @@ hr {
  background-color: var(--primary-color);
  color : white;
  border-radius: 1rem;
+ display: inline;
  
 }
 
@@ -46,6 +47,7 @@ hr {
     border-radius: 1rem;
     color: var(--primary-color);
     margin:auto;
+    display: inline;
 }
 
 /* lists */
